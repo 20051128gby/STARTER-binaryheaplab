@@ -4,7 +4,7 @@
 #include "heap.h"
 #include <iostream>
 using std::cout;
-
+pthread_testcancel
 // Builds a heap from the range [start, end) using the heapify algorithm
 // Should run in O(n) time
 Heap::Heap(std::vector<int>::iterator start, std::vector<int>::iterator end){
